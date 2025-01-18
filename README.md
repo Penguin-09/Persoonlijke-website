@@ -6,7 +6,7 @@ Bij de ontwikkeling van deze website heb ik gebruik gemaakt van het Bootstrap CS
 
 ## Dankwoord
 
-Ik wil Arwen Bakhuizen ontzettend bedanken omdat zij het logo dat je links bovenaan de site ziet voor mij gemaakt heeft.
+Ik wil Arwen Bakhuisen ontzettend bedanken omdat zij het logo dat je links bovenaan de site ziet voor mij gemaakt heeft.
 
 ## Links
 

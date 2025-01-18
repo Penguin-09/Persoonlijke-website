@@ -29,8 +29,7 @@
         <!-- HEADER -->
         <div style="background-color: #1f1f1f">
             <div class="container">
-                <!-- WHY IT NO WORKY WORK -->
-                <div class="row sticky-top d-flex justify-content-center">
+                <div class="row d-flex justify-content-center">
                     <div class="col-lg-10 d-flex justify-content-between m-2">
                         <!-- Logo -->
                         <a
@@ -104,9 +103,9 @@
                                 style="border-bottom: 2px solid #198754"
                                 >Bit Academy</a
                             >, gespecialiseerd in back-end webdevelopment. Ik
-                            heb veel ervaring met PHP, SQL en objectgeoriënteerd
-                            programmeren en beschik daarnaast over een goede
-                            basiskennis van HTML, CSS en JavaScript.
+                            heb ervaring met PHP, SQL, en ik heb basiskennis van
+                            HTML, CSS en JavaScript. Ook beheers ik technieken
+                            zoals OOP en UML.
                         </p>
                     </div>
                 </div>
@@ -169,61 +168,76 @@
                             Tijdens mijn tijd bij de Bit Academy heb ik
                             uitgebreide ervaring opgedaan met verschillende
                             programmeertalen. Hieronder staan enkele van de
-                            talen waarin ik vaardig ben, en de mate waarin ik ze
-                            beheers.
+                            talen waarin ik vaardig ben en waar mijn
+                            specialiteiten liggen.
                         </p>
 
-                        <div class="progress" style="height: 25px">
-                            <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 35%; background-color: #12633d"
-                                aria-valuenow="35"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            >
-                                PHP
-                            </div>
-                            <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 20%; background-color: #157548"
-                                aria-valuenow="20"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            >
-                                SQL
-                            </div>
-                            <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 20%; background-color: #198754"
-                                aria-valuenow="20"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            >
-                                HTML/CSS
-                            </div>
-                            <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 20%; background-color: #1c985e"
-                                aria-valuenow="20"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            >
-                                JavaScript
-                            </div>
-                            <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 5%; background-color: #20ae6c"
-                                aria-valuenow="5"
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                            >
-                                C#
-                            </div>
+                        <div class="d-flex justify-content-center">
+                            <style>
+                                .pie-chart {
+                                    background: radial-gradient(
+                                            circle closest-side,
+                                            transparent 90%,
+                                            #222222 0
+                                        ),
+                                        conic-gradient(
+                                            #12633d 0,
+                                            #12633d 35%,
+                                            #157548 0,
+                                            #157548 55%,
+                                            #198754 0,
+                                            #198754 75%,
+                                            #1c985e 0,
+                                            #1c985e 90%,
+                                            #1ea468 0,
+                                            #1ea468 95%,
+                                            #20ae6e 0,
+                                            #20ae6e 100%
+                                        );
+                                    position: relative;
+                                    width: 500px;
+                                    min-height: 200px;
+                                    margin: 0;
+                                }
+                                .pie-chart figcaption {
+                                    position: absolute;
+                                    bottom: 1em;
+                                    right: 1em;
+                                    font-size: smaller;
+                                    text-align: right;
+                                }
+                                .pie-chart span:after {
+                                    display: inline-block;
+                                    content: "";
+                                    width: 0.8em;
+                                    height: 0.8em;
+                                    margin-left: 0.4em;
+                                    height: 0.8em;
+                                    border-radius: 0.2em;
+                                    background: currentColor;
+                                }
+                            </style>
+                            <figure class="pie-chart">
+                                <figcaption>
+                                    PHP | 35%<span style="color: #12633d"></span
+                                    ><br />
+                                    HTML/CSS | 20%<span
+                                        style="color: #157548"
+                                    ></span
+                                    ><br />
+                                    Javascript | 20%<span
+                                        style="color: #198754"
+                                    ></span
+                                    ><br />
+                                    SQL | 15%<span style="color: #1c985e"></span
+                                    ><br />
+                                    C# | 5%<span style="color: #1ea468"></span
+                                    ><br />
+                                    Python | 5%<span
+                                        style="color: #20ae6e"
+                                    ></span>
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
 
@@ -232,46 +246,45 @@
                         <h1 class="text-success text-center">Certificaten</h1>
 
                         <p class="text-center">
-                            Maar neem het niet alleen van mij aan! Hieronder
-                            vind je een overzicht van een paar van de
-                            certificaten die ik heb behaald, als bewijs van mijn
-                            vaardigheden en wat ik allemaal aan het doen ben
-                            tijdens mijn studie bij Bit Academy.
+                            Neem het niet alleen van mij aan! Hieronder vind je
+                            een overzicht van een paar van de certificaten die
+                            ik heb behaald, als bewijs van mijn vaardigheden en
+                            wat ik doe bij mijn studie op de Bit Academy.
                         </p>
 
                         <div class="d-flex justify-content-center flex-wrap">
                             <a
                                 href="certificates/backEndRookie.pdf"
                                 target="_blank"
-                                class="btn btn-success m-2 customHover"
+                                class="btn btn-success m-2 shadow customHover"
                                 >Back-end rookie</a
                             >
 
                             <a
                                 href="certificates/OOPintro.pdf"
                                 target="_blank"
-                                class="btn btn-success m-2 customHover"
+                                class="btn btn-success m-2 shadow customHover"
                                 >Object Oriented Programming</a
                             >
 
                             <a
                                 href="certificates/databaseAdvanced.pdf"
                                 target="_blank"
-                                class="btn btn-success m-2 customHover"
+                                class="btn btn-success m-2 shadow customHover"
                                 >Database Advanced</a
                             >
 
                             <a
                                 href="certificates/HTMLCSSAdvanced.pdf"
                                 target="_blank"
-                                class="btn btn-success m-2 customHover"
+                                class="btn btn-success m-2 shadow customHover"
                                 >HTML/CSS Advanced</a
                             >
 
                             <a
                                 href="certificates/javascriptNovice.pdf"
                                 target="_blank"
-                                class="btn btn-success m-2 customHover"
+                                class="btn btn-success m-2 shadow customHover"
                                 >Javascript Novice</a
                             >
                         </div>
@@ -292,12 +305,12 @@
                         <div class="d-flex justify-content-center">
                             <!-- Cindy Project -->
                             <div
-                                class="col-lg-3 card text-light m-2"
+                                class="col-lg-3 card text-light shadow m-2"
                                 style="background-color: #222222"
                             >
                                 <img
                                     class="card-img-top"
-                                    src="images/cindyProjectBanner.png"
+                                    src="images/project-banners/cindy.png"
                                     alt="Cindy project"
                                 />
                                 <div class="card-body">
@@ -329,12 +342,12 @@
 
                             <!-- Modino Project -->
                             <div
-                                class="col-lg-3 card text-light m-2"
+                                class="col-lg-3 card text-light shadow m-2"
                                 style="background-color: #222222"
                             >
                                 <img
                                     class="card-img-top"
-                                    src="images/modinoProjectBanner.png"
+                                    src="images/project-banners/modino.png"
                                     alt="Modino project"
                                 />
                                 <div class="card-body">
@@ -358,7 +371,7 @@
                                     <a
                                         href="https://modino.nl/"
                                         target="_blank"
-                                        class="btn btn-success customHover"
+                                        class="btn btn-success shadow customHover"
                                     >
                                         Website bekijken
                                     </a>
@@ -367,12 +380,12 @@
 
                             <!-- Sudoku Project -->
                             <div
-                                class="col-lg-3 card text-light m-2"
+                                class="col-lg-3 card text-light shadow m-2"
                                 style="background-color: #222222"
                             >
                                 <img
                                     class="card-img-top"
-                                    src="images/sudokuProjectBanner.png"
+                                    src="images/project-banners/sudoku.png"
                                     alt="Modino project"
                                 />
                                 <div class="card-body">
@@ -395,7 +408,7 @@
                                     <a
                                         href="https://github.com/Penguin-09/Sudoku-Brute-Force-Algoritme"
                                         target="_blank"
-                                        class="btn btn-success customHover"
+                                        class="btn btn-success shadow customHover"
                                     >
                                         Repository bekijken
                                     </a>
@@ -410,85 +423,64 @@
         <!-- CONTACT -->
         <div class="container mt-3 mb-3" id="contact">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h1 class="text-success d-flex justify-content-center">
                         Contact
                     </h1>
 
-                    <div class="d-flex justify-content-center">
-                        <div class="col-lg-6 m-1 me-3 text-center">
-                            <p>
-                                Heb je een vraag of wil je iets bespreken? Ik
-                                ben op verschillende plekken bereikbaar. Je kunt
-                                mij bellen, een bericht sturen of mailen.
-                            </p>
+                    <div
+                        class="d-flex justify-content-center flex-column m-1 text-center"
+                    >
+                        <p>
+                            Heb je een vraag of wil je iets bespreken? Je kan me
+                            altijd een mail sturen. Wil je eerst meer over me
+                            weten? Bekijk dan mijn LinkedIn voor informatie over
+                            waar ik mee bezig ben of mijn github voor projecten
+                            die ik heb gemaakt.
+                        </p>
 
-                            <div>
-                                <!-- Phone -->
-                                <button
-                                    class="btn btn-success me-2"
-                                    style="width: 10rem"
-                                >
-                                    <p class="p-0 m-0">+31 6 57046679</p>
-                                    <i
-                                        class="bi bi-telephone-fill"
-                                        style="font-size: 5rem"
-                                    ></i>
-                                </button>
+                        <div>
+                            <!-- Email -->
+                            <a
+                                class="btn btn-success customHover shadow m-2"
+                                href="mailto:son@vdburg.site"
+                                target="_blank"
+                                style="width: 10rem"
+                            >
+                                <p class="p-0 m-0">son@vdburg.site</p>
+                                <i
+                                    class="bi bi-envelope-fill"
+                                    style="font-size: 5rem"
+                                ></i>
+                            </a>
 
-                                <!-- Email -->
-                                <a
-                                    class="btn btn-success customHover ms-2"
-                                    href="mailto:son@vdburg.site"
-                                    target="_blank"
-                                    style="width: 10rem"
-                                >
-                                    <p class="p-0 m-0">son@vdburg.site</p>
-                                    <i
-                                        class="bi bi-envelope-fill"
-                                        style="font-size: 5rem"
-                                    ></i>
-                                </a>
-                            </div>
-                        </div>
+                            <!-- LinkedIn -->
+                            <a
+                                class="btn btn-success customHover shadow m-2"
+                                href="https://www.linkedin.com/in/son-bram/"
+                                target="_blank"
+                                style="width: 10rem"
+                            >
+                                <p class="p-0 m-0">LinkedIn</p>
+                                <i
+                                    class="bi bi-linkedin"
+                                    style="font-size: 5rem"
+                                ></i>
+                            </a>
 
-                        <div class="col-lg-6 m-1 ms-3 text-center">
-                            <p>
-                                Wil je eerst meer over mij weten? Bekijk dan
-                                mijn LinkedIn voor informatie over mijn
-                                ervaringen of mijn github voor projecten die ik
-                                heb gemaakt.
-                            </p>
-
-                            <div>
-                                <!-- LinkedIn -->
-                                <a
-                                    class="btn btn-success customHover me-2"
-                                    href="https://www.linkedin.com/in/son-bram/"
-                                    target="_blank"
-                                    style="width: 10rem"
-                                >
-                                    <p class="p-0 m-0">LinkedIn</p>
-                                    <i
-                                        class="bi bi-linkedin"
-                                        style="font-size: 5rem"
-                                    ></i>
-                                </a>
-
-                                <!-- GitHub -->
-                                <a
-                                    class="btn btn-success customHover ms-2"
-                                    href="https://github.com/Penguin-09"
-                                    target="_blank"
-                                    style="width: 10rem"
-                                >
-                                    <p class="p-0 m-0">GitHub</p>
-                                    <i
-                                        class="bi bi-github"
-                                        style="font-size: 5rem"
-                                    ></i>
-                                </a>
-                            </div>
+                            <!-- GitHub -->
+                            <a
+                                class="btn btn-success customHover shadow m-2"
+                                href="https://github.com/Penguin-09"
+                                target="_blank"
+                                style="width: 10rem"
+                            >
+                                <p class="p-0 m-0">GitHub</p>
+                                <i
+                                    class="bi bi-github"
+                                    style="font-size: 5rem"
+                                ></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -497,12 +489,50 @@
 
         <!-- FOOTER -->
         <div style="background-color: #1f1f1f">
-            <div class="container mt-3 pb-3">
+            <div class="container mt-3">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-10 d-flex justify-content-center">
-                        <p class="text-white-50 mb-2 pt-4">
-                            &copy; Son Bram van der Burg 2025
-                        </p>
+                    <div
+                        class="col-lg-10 d-flex justify-content-between text-white-50 mt-3 pb-3"
+                    >
+                        <!-- Contact -->
+                        <div>
+                            <p class="m-0">
+                                <span class="border-bottom">Contact</span>
+                            </p>
+
+                            <p>son@vdburg.site</p>
+                        </div>
+
+                        <!-- <div class="position-absolute text-center">&copy; 2025 Son Bram van der Burg</div> -->
+
+                        <!-- Socials -->
+                        <div>
+                            <p class="m-0 d-flex justify-content-end">
+                                <span class="border-bottom">Socials</span>
+                            </p>
+
+                            <div>
+                                <a
+                                    href="https://www.linkedin.com/in/son-bram/"
+                                    target="_blank"
+                                >
+                                    <i
+                                        class="bi bi-linkedin"
+                                        style="font-size: 2rem"
+                                    ></i>
+                                </a>
+
+                                <a
+                                    href="https://github.com/Penguin-09"
+                                    target="_blank"
+                                >
+                                    <i
+                                        class="bi bi-github"
+                                        style="font-size: 2rem"
+                                    ></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
