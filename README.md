@@ -11,3 +11,4 @@ Ik wil Arwen Bakhuisen ontzettend bedanken omdat zij het logo dat je links boven
 ## Links
 
 [Mijn Github](https://github.com/Penguin-09)
+[Mijn LinkedIn](https://www.linkedin.com/in/son-bram/)
