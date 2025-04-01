@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.customHover {
+    transition: transform 0.3s ease;
+}
+
+.customHover:hover {
+    transform: scale(1.2);
+}
+
+/* Skill progress bars */
+.customProgress,
+.customProgressBar {
+    height: 5px;
+    border-radius: 15px;
+}
+
+.customProgress {
+    width: 100%;
+    background-color: white;
+}
+
+.customProgressBar {
+    background-color: #198754;
+}

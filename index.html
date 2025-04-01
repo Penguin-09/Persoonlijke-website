@@ -20,10 +20,10 @@
         />
         <link
             rel="shortcut icon"
-            href="images/logoBlack.png"
+            href="favicon.ico"
             type="image/x-icon"
         />
-        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body class="text-light" style="background-color: #222222">
         <!-- HEADER -->
@@ -38,7 +38,7 @@
                             style="width: 45px; height: 45px"
                         >
                             <img
-                                src="images/logoWhite.png"
+                                src="images/logo.png"
                                 alt="Logo"
                                 style="width: 30px"
                             />
@@ -174,67 +174,128 @@
                         <h1 class="text-success text-center">Specialisatie</h1>
 
                         <p class="text-center">
-                            Tijdens mijn tijd bij de Bit Academy heb ik
-                            uitgebreide ervaring opgedaan met verschillende
-                            programmeertalen. Alle hieronder genoemde
-                            technologiën beheers ik op een goed niveau. Het
-                            cirkeldiagram geeft weer in welke taal ik het
-                            meest codeer. Daarnaast kan ik ook werken met OOP, UML, SCRUM en Git.
+                            Tijdens mijn opleiding aan de Bit Academy heb ik ervaring opgedaan met diverse programmeertalen en tools. Hieronder vind je een overzicht van de technologieën die ik beheers.
                         </p>
 
-                        <div class="d-flex justify-content-center">
-                            <style>
-                                .pie-chart {
-                                    background:
-                                        radial-gradient(
-                                            circle closest-side,
-                                            transparent 90%,
-                                            #222222 0
-                                        ),
-                                        conic-gradient(
-                                            #12633d 0,
-                                            #12633d 35%,
-                                            #157548 0,
-                                            #157548 60%,
-                                            #198754 0,
-                                            #198754 85%,
-                                            #1c985e 0,
-                                            #1c985e 95%,
-                                            #1ea468 0,
-                                            #1ea468 100%
-                                    );
-                                    position: relative;
-                                    width: 100%;
-                                    min-height: 200px;
-                                    margin: 0;
-                                }
-                                .pie-chart figcaption {
-                                    position: absolute;
-                                    bottom: 1em;
-                                    right: 1em;
-                                    font-size: smaller;
-                                    text-align: right;
-                                }
-                                .pie-chart span:after {
-                                    display: inline-block;
-                                    content: "";
-                                    width: 0.8em;
-                                    height: 0.8em;
-                                    margin-left: 0.4em;
-                                    height: 0.8em;
-                                    border-radius: 0.2em;
-                                    background: currentColor;
-                                }
-                            </style>
-                            <figure class="pie-chart">
-                                <figcaption>
-                                    PHP 35%<span style="color:#12633d"></span><br>
-                                    Javascript 25%<span style="color:#157548"></span><br>
-                                    HTML/CSS 25%<span style="color:#198754"></span><br>
-                                    SQL 10%<span style="color:#1c985e"></span><br>
-                                    C# 5%<span style="color:#1ea468"></span>
-                                </figcaption>
-                            </figure>
+                        <div class="d-flex justify-content-around flex-wrap">
+                            <!-- Back-end -->
+                            <div class="col-lg-4">
+                                <p class="fs-4 text-center" style="color: #198754;">Back end</p>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">PHP</p>
+                                        <p class="m-0">90%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 90%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">SQL</p>
+                                        <p class="m-0">80%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 80%;"></div></div>
+                                </div>
+                                
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">C#</p>
+                                        <p class="m-0">60%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 60%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">C++</p>
+                                        <p class="m-0">40%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 40%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">Laravel</p>
+                                        <p class="m-0">10%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 10%;"></div></div>
+                                </div>
+                            </div>
+
+                            <!-- Front-end -->
+                            <div class="col-lg-4">
+                                <p class="fs-4 text-center" style="color: #198754;">Front end</p>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">Javascript</p>
+                                        <p class="m-0">90%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 90%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">Bootstrap</p>
+                                        <p class="m-0">80%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 80%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">HTML/CSS</p>
+                                        <p class="m-0">70%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 70%;"></div></div>
+                                </div>
+                            </div>
+
+                            <!-- Tools -->
+                            <div class="col-lg-4">
+                                <p class="fs-4 text-center" style="color: #198754;">Tools</p>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">Git</p>
+                                        <p class="m-0">90%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 90%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">SCRUM</p>
+                                        <p class="m-0">80%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 80%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">OOP</p>
+                                        <p class="m-0">50%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 50%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">Arduino</p>
+                                        <p class="m-0">50%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 50%;"></div></div>
+                                </div>
+
+                                <div class="p-1 px-2">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="m-0">UML</p>
+                                        <p class="m-0">40%</p>
+                                    </div>
+                                    <div class="customProgress"><div class="customProgressBar" style="width: 40%;"></div></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -337,7 +398,7 @@
                                         ><i
                                             class="bi bi-box-arrow-up-right me-1"
                                         ></i>
-                                        Assistive-innovations.com
+                                        Assistive Innovations
                                     </a>
                                     <a
                                         href="https://www.parkinson.nl/innovatie/parkinsonnl-financiert-4-innovatieprojecten-2023/"
@@ -346,7 +407,7 @@
                                         ><i
                                             class="bi bi-box-arrow-up-right me-1"
                                         ></i>
-                                        Parkinson.nl
+                                        Parkinson nl
                                     </a>
                                 </div>
                             </div>
@@ -366,22 +427,25 @@
                                         Kwoatle mobiele app
                                     </h5>
                                     <p class="card-subtitle text-white-50 mb-2">
-                                        Typescript | 2025 feb - 2025 mrt
+                                        Typescript | 2025 feb - 2025 apr
                                     </p>
                                     <p class="card-subtitle text-white-50 mb-2">
                                         Samen met Sven Hoeksema
                                     </p>
                                     <p class="card-text">
-                                        Een mobiele app ontwikkeld samen met een medestudent. Dit persoonlijke project was gericht op het versterken van onze vaardigheden in TypeScript en React Native.                                    </p>
+                                        Een mobiele app ontwikkeld samen met een medestudent. Dit persoonlijke project was gericht op het versterken van onze vaardigheden in TypeScript en React Native.
+                                    </p>
                                     <a
-                                        href="sudoku.html"
+                                        href="https://play.google.com/store/apps/details?id=com.snevver.Kwoatle&pcampaignid=web_share"
                                         target="_blank"
-                                        class="btn btn-success shadow mb-2 customHover disabled"
-                                        >
-                                        Dit project is nog niet af
+                                        class="btn btn-success shadow mb-2 customHover"
+                                        ><i
+                                        class="bi bi-box-arrow-up-right me-1"
+                                    ></i>
+                                        App bekijken
                                     </a>
                                     <a
-                                        href="https://snevver.github.io/"
+                                        href="https://snevver.nl/"
                                         target="_blank"
                                         class="btn btn-success shadow customHover mb-2"
                                         ><i
@@ -389,17 +453,9 @@
                                         ></i>
                                         Sven Hoeksema
                                     </a>
-                                    <a
-                                        href="https://github.com/Snevver/Kwoatle"
-                                        target="_blank"
-                                        class="btn btn-success shadow customHover"
-                                        ><i
-                                            class="bi bi-box-arrow-up-right me-1"
-                                        ></i>
-                                        Repository bekijken
-                                    </a>
                                 </div>
                             </div>
+
 
                             <!-- Modino Project -->
                             <div
@@ -469,7 +525,7 @@
                                         verbeteren.
                                     </p>
                                     <a
-                                        href="sudoku.html"
+                                        href="sudoku/sudoku.html"
                                         target="_blank"
                                         class="btn btn-success shadow mb-2 customHover"
                                         >
@@ -506,7 +562,7 @@
                         <p>
                             Heb je een vraag of wil je iets bespreken? Je kunt mij
                             altijd een mail sturen. Wil je eerst meer over mij
-                            weten? Bekijk dan mijn LinkedIn voor informatie over
+                            weten? Bekijk dan mijn LinkedIn of CV voor informatie over
                             waar ik mee bezig ben of mijn github voor projecten
                             die ik heb gemaakt.
                         </p>
@@ -517,11 +573,25 @@
                                 class="btn btn-success customHover shadow m-2"
                                 href="mailto:son@vdburg.site"
                                 target="_blank"
-                                style="width: 10rem"
+                                style="width: 10em"
                             >
                                 <p class="p-0 m-0">son@vdburg.site</p>
                                 <i
                                     class="bi bi-envelope-fill"
+                                    style="font-size: 5rem"
+                                ></i>
+                            </a>
+
+                            <!-- CV -->
+                            <a
+                                class="btn btn-success customHover shadow m-2"
+                                href="cv/CV_SonBramVanDerBurg.pdf"
+                                target="_blank"
+                                style="width: 10em"
+                            >
+                                <p class="p-0 m-0">CV</p>
+                                <i
+                                    class="bi bi-file-earmark-person-fill"
                                     style="font-size: 5rem"
                                 ></i>
                             </a>
@@ -531,7 +601,7 @@
                                 class="btn btn-success customHover shadow m-2"
                                 href="https://www.linkedin.com/in/son-bram/"
                                 target="_blank"
-                                style="width: 10rem"
+                                style="width: 10em"
                             >
                                 <p class="p-0 m-0">LinkedIn</p>
                                 <i
@@ -545,7 +615,7 @@
                                 class="btn btn-success customHover shadow m-2"
                                 href="https://github.com/Penguin-09"
                                 target="_blank"
-                                style="width: 10rem"
+                                style="width: 10em"
                             >
                                 <p class="p-0 m-0">GitHub</p>
                                 <i
@@ -574,8 +644,6 @@
 
                             <p>son@vdburg.site</p>
                         </div>
-
-                        <!-- <div class="position-absolute text-center">&copy; 2025 Son Bram van der Burg</div> -->
 
                         <!-- Socials -->
                         <div>
